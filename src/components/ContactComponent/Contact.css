@@ -1,0 +1,19 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  text-align: center;
+}
+
+.contactPage {
+  margin: auto;
+  width: 50%;
+}
+
+input,
+textarea,
+button,
+p {
+  padding: 5px;
+  margin: 5px 5px;
+}

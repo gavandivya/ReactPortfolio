@@ -1,10 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Contact from './components/ContactComponent/Contact';
+import Footer from './components/FooterComponent/Footer';
+import MapComponent from './components/MapComponent/MapComponent';
+import TechStack from './components/TechStackComponent/TechStack';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <>
+      <TechStack />
+      <div className='main' style={{ display: "flex" }}>
+        {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,8 +22,12 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
+      </header> */}
+        <Contact />
+        <MapComponent />
+      </div>
+      <Footer />
+    </>
   );
 }
 
