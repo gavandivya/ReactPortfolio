@@ -7,6 +7,7 @@ import Header from "./components/HeaderComponent/Header";
 import MapComponent from "./components/MapComponent/MapComponent";
 import Skills from "./components/SkillsComponent/Skills";
 import TechStack from "./components/TechStackComponent/TechStack";
+import Testimonial from "./components/TestimonialComponent/Testimonial";
 import Work from "./components/WorkTimelineComponent/Work";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Skills />
         <GithubStats />
         <Article />
+        <Testimonial />
         <Contact />
         {/* <MapComponent /> */}
       </div>
