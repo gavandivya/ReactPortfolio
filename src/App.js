@@ -15,19 +15,12 @@ function App() {
       <Header />
       <div className="section">
         <TechStack />
-      </div>
-      <div className="section">
         <Work />
-      </div>
-      <div className="section">
         <Skills />
-      </div>
-      <div className="section">
         <GithubStats />
-      </div>
-      <div className="section flex flex-wrap">
+        <Article />
         <Contact />
-        <MapComponent />
+        {/* <MapComponent /> */}
       </div>
       <Footer />
     </>

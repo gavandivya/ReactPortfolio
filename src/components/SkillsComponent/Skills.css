@@ -9,6 +9,7 @@
   background-color: #d8d8d8;
   height: 10px;
   margin: 0 0 20px 0;
+  border-radius: 25px;
 }
 .bar-fill {
   position: absolute;

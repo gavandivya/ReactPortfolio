@@ -1,8 +1,8 @@
 .img-responsive {
-  /* min-width: 350px !important;
-  max-width: 270px !important; */
-  max-height: 160px;
-  min-height: 100px;
+  min-width: 350px !important;
+  /* max-width: 400px !important; */
+  /* max-height: 240px;
+  min-height: 190px; */
   margin: 0.4rem;
   border-radius: 25px;
 }

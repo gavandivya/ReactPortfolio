@@ -5,15 +5,17 @@ form {
   text-align: center;
 }
 
-.contactPage {
-  /* margin: auto; */
-  width: 50%;
-}
-
 input,
 textarea,
 button,
 p {
   padding: 5px;
   margin: 5px 5px;
+}
+
+.btn {
+  width: 95px;
+  font-size: 14px;
+  margin: 0.5rem;
+  background-color: rgb(194, 195, 196);
 }

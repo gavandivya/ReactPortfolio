@@ -29,7 +29,7 @@ const Contact = () => {
 
   return (
     <div className="contactPage">
-      <h2 className="text-2xl font-bold">Contact me</h2>
+      <h2 className="text-2xl font-bold text-center uppercase">Contact me</h2>
       <p>
         I am interested in Freelancing opportunities. However if you have any
         other request or questions feel free to connect me. Thanks😌
@@ -60,13 +60,13 @@ const Contact = () => {
           name="message"
           className="border border-slate-300 rounded-md"
           id="message"
-          cols="30"
-          rows="10"
+          cols="10"
+          rows="5"
           required
           placeholder="Message"
         ></textarea>
         <div className="text-center">
-          <button className="rounded-full bg-gray-600 w-32" type="submit">
+          <button className="btn" type="submit">
             Send
           </button>
         </div>
