@@ -1,13 +1,14 @@
 import './App.css';
 import Contact from './components/ContactComponent/Contact';
 import Footer from './components/FooterComponent/Footer';
+import GithubStats from './components/GithubStatsComponent/GithubStats';
 import MapComponent from './components/MapComponent/MapComponent';
 import TechStack from './components/TechStackComponent/TechStack';
 
 function App() {
   return (
     <>
-      <TechStack />
+
       <div className='main' style={{ display: "flex" }}>
         {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -25,6 +26,10 @@ function App() {
       </header> */}
         <Contact />
         <MapComponent />
+      </div>
+      <div className='main'>
+        <TechStack />
+        <GithubStats />
       </div>
       <Footer />
     </>
