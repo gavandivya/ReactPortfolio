@@ -25,7 +25,7 @@ const {
 const TechStack = () => {
   return (
     <div>
-      <h2 className="text-2xl font-bold">Tech Stack</h2>
+      <h2 className="text-2xl font-bold text-center uppercase">Tech Stack</h2>
       <div className="flex flex-wrap p-5">
         <img className="cdnheight" src={html} alt="HTML" />
         <img className="cdnheight" src={css} alt="CSS" />
