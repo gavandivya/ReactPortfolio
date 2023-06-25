@@ -4,7 +4,9 @@ import "./GithubStats.css";
 const GithubStats = () => {
   return (
     <>
-      <h2 className="text-2xl font-bold uppercase">Github</h2>
+      <h2 className="text-2xl font-bold uppercase text-center m-2">
+        Github Stats
+      </h2>
       <div className="flex justify-center flex-wrap">
         <div>
           <img
