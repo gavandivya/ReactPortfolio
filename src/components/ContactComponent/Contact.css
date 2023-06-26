@@ -1,12 +1,12 @@
 form {
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 10px;
   text-align: center;
 }
 
 .contactPage {
-  margin: auto;
+  /* margin: auto; */
   width: 50%;
 }
 

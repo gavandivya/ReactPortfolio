@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <div className="section" style={{ display: "flex" }}>
+      <div className="section flex flex-wrap">
         <Contact />
         <MapComponent />
       </div>
