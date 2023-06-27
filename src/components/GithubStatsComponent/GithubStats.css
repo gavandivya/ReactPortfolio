@@ -1,18 +1,4 @@
-.one {
-  grid-area: one;
-}
-.two {
-  grid-area: two;
-}
-.three {
-  grid-area: three;
-}
-
-.container {
-  display: grid;
-  /* grid-template-columns: 50px 50px; */
-  grid-template-rows: auto;
-  grid-template-areas:
-    "one . two"
-    ". three . ";
-}
+/* .img-responsive {
+  min-width: 200px !important;
+  max-width: 400px !important;
+} */

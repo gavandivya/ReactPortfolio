@@ -1,34 +1,23 @@
-import './App.css';
-import Contact from './components/ContactComponent/Contact';
-import Footer from './components/FooterComponent/Footer';
-import GithubStats from './components/GithubStatsComponent/GithubStats';
-import MapComponent from './components/MapComponent/MapComponent';
-import TechStack from './components/TechStackComponent/TechStack';
+import "./App.css";
+import Contact from "./components/ContactComponent/Contact";
+import Footer from "./components/FooterComponent/Footer";
+import GithubStats from "./components/GithubStatsComponent/GithubStats";
+import Header from "./components/HeaderComponent/Header";
+import MapComponent from "./components/MapComponent/MapComponent";
+import TechStack from "./components/TechStackComponent/TechStack";
 
 function App() {
   return (
     <>
-
-      <div className='main' style={{ display: "flex" }}>
-        {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
+      <Header />
+      <div className="section" style={{ display: "flex" }}>
         <Contact />
         <MapComponent />
       </div>
-      <div className='main'>
+      <div className="section">
         <TechStack />
+      </div>
+      <div className="section">
         <GithubStats />
       </div>
       <Footer />
