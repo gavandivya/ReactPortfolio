@@ -219,7 +219,6 @@ const Testimonial = () => {
                 />
               </svg>
             </div>
-
             <p className="mt-1 text-lg font-medium text-gray-700">Radhakrishna A.</p>
             <small>Founder of MyDukan</small>
           </div>
