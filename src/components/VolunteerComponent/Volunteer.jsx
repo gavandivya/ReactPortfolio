@@ -59,4 +59,4 @@ const Volunteer = () => {
   )
 }
 
-export default Volunteer
+export default Volunteer;

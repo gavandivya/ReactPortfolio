@@ -165,7 +165,6 @@ const Testimonial = () => {
             src={review3}
             className="h-16 w-16 rounded-full object-cover"
           />
-
           <div>
             <div className="flex justify-center gap-0.5 text-green-500">
               <svg
