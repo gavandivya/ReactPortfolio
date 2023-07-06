@@ -6,6 +6,11 @@
 }*/
 
 
+#section a{
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: black;
+}
+
 .active, .active:hover{
     font-weight: bold;
 }
@@ -15,12 +20,9 @@
     font-weight: 400;
 }
 
-a{
-    -webkit-text-stroke: 0.5px white;
-    -webkit-text-fill-color: black;
-}
 
-a:hover {
+
+#section a:hover {
     color: #fff;
     text-decoration: none;
 }

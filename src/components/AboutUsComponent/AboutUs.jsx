@@ -1,5 +1,6 @@
 import React from "react";
 import profile from "../../images/divya.png";
+import resume from "../../images/DivyaGavandi.pdf";
 import "./AboutUs.css";
 import { NavHashLink } from "react-router-hash-link";
 import { BiSolidDownload } from "react-icons/bi";
@@ -12,7 +13,7 @@ const AboutUs = () => {
     >
       <div>
         <h2 className="text-3xl font-bold text-center uppercase">About me</h2>
-        <img src={profile} alt="" className="img-fluid" />
+        <img src={profile} alt="" className="img-profile" />
       </div>
       <div>
         <h4 className="text-2xl font-bold pt-10 ml-3">
@@ -33,8 +34,8 @@ const AboutUs = () => {
           📌 Do read my blogs and go through my graphic work.
           <br />
           <div>
-          <button className="button font-bold">
-             <BiSolidDownload style={{display:"inline"}}/> Resume
+          <button className="button font-bold"><BiSolidDownload style={{display:"inline"}}/> 
+          <a href={resume} download="DivyaGavandi">Resume</a>
             </button> &nbsp;
             <NavHashLink
               className="button"

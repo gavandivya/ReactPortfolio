@@ -17,6 +17,7 @@ export const techstack = {
     "figma": "https://img.icons8.com/color/75/000000/figma--v1.png",
     "git": "https://img.icons8.com/color/75/000000/git.png",
     "vscode": "https://img.icons8.com/color/75/000000/visual-studio--v2.png"
-
 }
+
+
 

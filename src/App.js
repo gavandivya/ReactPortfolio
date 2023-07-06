@@ -11,6 +11,8 @@ import Skills from "./components/SkillsComponent/Skills";
 import TechStack from "./components/TechStackComponent/TechStack";
 import Work from "./components/WorkTimelineComponent/Work";
 import Testimonial from "./components/TestimonialComponent/Testimonial";
+import Graphic from "./components/GraphicComponent/Graphic";
+import Project from "./components/ProjectComponent/Project";
 
 function App() {
   return (
@@ -27,6 +29,12 @@ function App() {
         </div>
         <div className="box">
         <Skills />
+        </div>
+        <div className="box">
+          <Graphic/>
+        </div>
+        <div className="box">
+          <Project/>
         </div>
         <div className="box">
         <GithubStats />

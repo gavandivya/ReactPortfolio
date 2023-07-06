@@ -1,5 +1,5 @@
 import React,{useContext, useEffect,useState,useRef} from "react";
-import "./Header.css"
+import "./Header.css";
 import { useLocation } from "react-router-dom";
 import { NavHashLink} from 'react-router-hash-link';
 import {
