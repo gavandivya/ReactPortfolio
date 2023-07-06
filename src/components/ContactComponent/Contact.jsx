@@ -28,8 +28,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="contactPage">
-      <h2 className="text-2xl font-bold text-center uppercase">Contact me</h2>
+    <div className="contactPage" id="contact">
+      <h2 className="text-3xl font-bold text-center uppercase">Contact me</h2>
       <p>
         I am interested in Freelancing opportunities. However if you have any
         other request or questions feel free to connect me. Thanks😌

@@ -4,13 +4,13 @@ import "../../css/animate.css";
 
 const Work = () => {
   return (
-    <div className="experience" id="experience">
+    <div className="experience" id="workExp">
       <div className="container">
         <header
           className="section-header text-center wow zoomIn"
           data-wow-delay="0.1s"
         >
-          <h2 className="text-2xl font-bold uppercase mb-3">
+          <h2 className="text-3xl font-bold uppercase mb-3">
             Working Experience
           </h2>
         </header>

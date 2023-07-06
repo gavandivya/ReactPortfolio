@@ -1,35 +1,48 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
+import AboutUs from "./components/AboutUsComponent/AboutUs";
 import Article from "./components/ArticleComponent/Article";
-import Certification from "./components/CertificationComponent/Certification";
 import Contact from "./components/ContactComponent/Contact";
 import Footer from "./components/FooterComponent/Footer";
 import GithubStats from "./components/GithubStatsComponent/GithubStats";
 import Header from "./components/HeaderComponent/Header";
 import Intro from "./components/IntroComponent/Intro";
-import MapComponent from "./components/MapComponent/MapComponent";
 import Skills from "./components/SkillsComponent/Skills";
 import TechStack from "./components/TechStackComponent/TechStack";
-import Testimonial from "./components/TestimonialComponent/Testimonial";
 import Work from "./components/WorkTimelineComponent/Work";
+import Testimonial from "./components/TestimonialComponent/Testimonial";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <Header />
       <div className="section">
         <Intro />
+        <AboutUs/>
+        <div className="box">
         <TechStack />
+        </div>
+        <div className="box">
         <Work />
+        </div>
+        <div className="box">
         <Skills />
+        </div>
+        <div className="box">
         <GithubStats />
+        </div>
+        <div className="box">
         <Article />
-        {/* <Certification /> */}
-        {/* <Testimonial /> */}
+        </div>
+        <div className="box">
+          <Testimonial/>
+          </div>
+          <div className="box">
         <Contact />
-        {/* <MapComponent /> */}
+        </div>
       </div>
       <Footer />
-    </>
+    </BrowserRouter>
   );
 }
 

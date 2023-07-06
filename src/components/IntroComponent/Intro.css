@@ -1,0 +1,33 @@
+.intro{
+    margin: 3rem 0px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 50px;
+}
+
+
+.heading{
+    font-size: 35px;
+    font-weight: 600;
+    margin-top:2rem;
+}
+
+
+.glow{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+    margin-bottom: 1.5rem;
+    }
+
+    @keyframes glow {
+        from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #5A6AD2, 0 0 40px #5A6AD2, 0 0 50px #5A6AD2, 0 0 60px #5A6AD2, 0 0 70px #5A6AD2;
+        }
+        
+        to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #261174, 0 0 40px #261174, 0 0 50px #261174, 0 0 60px #261174, 0 0 70px #261174, 0 0 80px #261174;
+        }
+        }

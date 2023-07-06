@@ -1,0 +1,38 @@
+/*nav{
+    background-color: rgb(180, 180, 180);
+    height: 65px;
+    z-index:1; 
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}*/
+
+
+.active, .active:hover{
+    font-weight: bold;
+}
+
+
+.isNotActive{
+    font-weight: 400;
+}
+
+a{
+    -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: black;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.navbarBg{
+    background-color: rgb(255, 255, 255);
+    height: 65px;
+    z-index:1; /*Add this*/
+    box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.anchorColor{
+    color: #000000;
+}

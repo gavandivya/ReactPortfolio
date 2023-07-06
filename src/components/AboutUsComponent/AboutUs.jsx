@@ -1,0 +1,61 @@
+import React from "react";
+import profile from "../../images/divya.png";
+import "./AboutUs.css";
+import { NavHashLink } from "react-router-hash-link";
+import { BiSolidDownload } from "react-icons/bi";
+
+const AboutUs = () => {
+  return (
+    <div
+      className="flex bg-white mx-20 pt-6 flex-wrap justify-center px-2 opacity-90"
+      id="about"
+    >
+      <div>
+        <h2 className="text-3xl font-bold text-center uppercase">About me</h2>
+        <img src={profile} alt="" className="img-fluid" />
+      </div>
+      <div>
+        <h4 className="text-2xl font-bold pt-10 ml-3">
+          𝗛𝗲𝗹𝗹𝗼, 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀!👋
+        </h4>
+        <p className="text-lg">
+          📌 I am Computer Engineer by Profession, Frontend Developer by Passion
+          and aspiring Full Stack Web Developer
+          <br /> &emsp;&nbsp;with knowledge of latest web technologies.
+          <br />
+          📌 Love experimenting new tech stack and languages which helps to
+          improve my knowledge and enhance my experience.
+          <br />
+          📌 An ambitious girl with a strong desire to succeed.
+          <br />
+          📌 I would love to collaborate on projects, contact me for any help.
+          <br />
+          📌 Do read my blogs and go through my graphic work.
+          <br />
+          <div>
+          <button className="button font-bold">
+             <BiSolidDownload style={{display:"inline"}}/> Resume
+            </button> &nbsp;
+            <NavHashLink
+              className="button"
+              smooth
+              to="#contact"
+              style={{ WebkitTextStroke: 0,padding:"0.4rem" }}
+              scroll={(el) =>
+                el.scrollIntoView({
+                  behavior: "smooth",
+                  block: "center",
+                  inline: "nearest",
+                })
+              }
+            >
+            Contact Me            
+            </NavHashLink>
+          </div>
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default AboutUs;

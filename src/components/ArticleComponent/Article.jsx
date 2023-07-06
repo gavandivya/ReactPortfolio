@@ -5,8 +5,8 @@ import "./Article.css";
 
 const Article = () => {
   return (
-    <div>
-      <h2 className="text-2xl font-bold uppercase text-center m-2">Blogs</h2>
+    <div id="blog">
+      <h2 className="text-3xl font-bold uppercase text-center m-2">Blogs</h2>
       <div className="flex flex-wrap justify-center blog">
         <div className="card p-4 m-2">
           <img src={pwa} alt="pwa" />
