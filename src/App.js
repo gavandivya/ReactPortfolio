@@ -15,6 +15,7 @@ import Graphic from "./components/GraphicComponent/Graphic";
 import Project from "./components/ProjectComponent/Project";
 import Volunteer from "./components/VolunteerComponent/Volunteer";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -26,29 +27,26 @@ function App() {
         <TechStack />
         </div>
         <div className="box">
+        <GithubStats />
+        </div>
+        <div className="box">
         <Work />
         </div>
         <div className="box">
         <Skills />
         </div>
         <div className="box">
-          <Graphic/>
-        </div>
-        <div className="box">
           <Project/>
         </div>
         <div className="box">
-        <GithubStats />
-        </div>
-        <div className="box">
-        <Article />
+          <Graphic/>
         </div>
         <div className="box">
         <Volunteer />
         </div>
         <div className="box">
           <Testimonial/>
-          </div>
+        </div>
           <div className="box">
         <Contact />
         </div>

@@ -5,58 +5,10 @@ import "../../css/animate.css";
 const Work = () => {
   return (
     <div className="experience" id="workExp">
-      <div className="container">
-        <header
-          className="section-header text-center wow zoomIn"
-          data-wow-delay="0.1s"
-        >
-          <h2 className="text-3xl font-bold uppercase mb-3">
+          <h2 className="text-3xl font-bold uppercase mb-3 text-center">
             Working Experience
           </h2>
-        </header>
         <div className="timeline">
-          {/* <div
-            className="timeline-item left wow slideInLeft"
-            data-wow-delay="0.1s"
-          >
-            <div className="timeline-text">
-              <div className="timeline-date">2045 - 2050</div>
-              <h2>Web Developer</h2>
-              <h4>Soft Agency, San Francisco, CA</h4>
-              <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
-                erat sagittis non. Ut blandit semper pretium.
-              </p>
-            </div>
-          </div>
-          <div
-            className="timeline-item right wow slideInRight"
-            data-wow-delay="0.1s"
-          >
-            <div className="timeline-text">
-              <div className="timeline-date">2045 - 2050</div>
-              <h2>Web Developer</h2>
-              <h4>Soft Agency, San Francisco, CA</h4>
-              <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
-                erat sagittis non. Ut blandit semper pretium.
-              </p>
-            </div>
-          </div>
-          <div
-            className="timeline-item left wow slideInLeft"
-            data-wow-delay="0.1s"
-          >
-            <div className="timeline-text">
-              <div className="timeline-date">2045 - 2050</div>
-              <h2>Web Developer</h2>
-              <h4>Soft Agency, San Francisco, CA</h4>
-              <p>
-                Lorem ipsum dolor sit amet elit. Aliquam odio dolor, id luctus
-                erat sagittis non. Ut blandit semper pretium.
-              </p>
-            </div>
-          </div> */}
           <div
             className="timeline-item right wow slideInRight"
             data-wow-delay="0.1s"
@@ -81,7 +33,7 @@ const Work = () => {
               <h2>BTech in Computer Engineering</h2>
               <h4>Sardar Patel Institute of Technology(SPIT)</h4>
               <p>
-                Pursued my CS Degree with an on campus job with 6 months
+                Pursued my CS Degree with subjects like Data Structure, DBMS, OS, OOPS and got on campus job with 6 months
                 internship, scored CGPA - 9.1
               </p>
             </div>
@@ -102,7 +54,6 @@ const Work = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

@@ -9,6 +9,7 @@ import {
 } from "react-icons/ai";
 import { SiHashnode } from "react-icons/si";
 import "./Intro.css";
+import bg from "../../images/binbg1.jpg";
 
 
 const Intro = () => {
@@ -37,7 +38,8 @@ const Intro = () => {
   }, []);
 
   return (
-    <header className="white-text-container section-container">
+    <header className="white-text-container section-container"
+    >
       <div className="text-center">
         <h1 className="heading text-white">
           I am Divya Gavandi,
@@ -97,5 +99,4 @@ export default Intro;
   </div>
 </div>
 <!--/ Intro Skew End /-->
-
 */

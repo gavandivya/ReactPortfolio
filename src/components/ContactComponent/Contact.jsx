@@ -28,15 +28,29 @@ const Contact = () => {
   };
 
   return (
-    <div className="contactPage" id="contact">
-      <h2 className="text-3xl font-bold text-center uppercase">Contact me</h2>
+    <>
+    <h2 className="text-3xl font-bold text-center uppercase">Contact me</h2>
+    <div className="flex sm:flex-wrap md:flex-wrap lg:flex-nowrap justify-center" id="contact">
+      <div>
       <p>
-        I am interested in Freelancing opportunities. However if you have any
-        other request or questions feel free to connect me. Thanks😌
+        I am interested in Freelancing Opportunities. However if you have any
+        other request or have any doubts regarding Web Development, 
+        Frontend Technologies feel free to connect me.<br/> I would be happy to help you. Thanks😌
       </p>
-      <form action="" onSubmit={sendEmail} ref={refForm}>
+      <p><img width="32" height="32" src="https://img.icons8.com/color/48/marker--v2.png" alt="marker--v2" className="inline"/>
+        <span className="font-semibold"> Borivali East, Mumbai 400066.</span>
+      </p>
+      <p>
+      <img width="32" height="32" src="https://img.icons8.com/fluency/48/gmail-new.png" alt="gmail-new" className="inline"/>
+        <span className="font-semibold">  onlyforcode19@gmail.com</span>
+      </p>
+      <p>You can also connect me on any social media platform.</p>
+
+      </div>
+
+      <form action="" onSubmit={sendEmail} ref={refForm} className="w-4/5">
         <input
-          className="border border-slate-300 rounded-md"
+          className="border  !border-b-4 !border-slate-50 rounded-md"
           type="text"
           name="name"
           placeholder="Name"
@@ -44,21 +58,14 @@ const Contact = () => {
         />
         <input
           type="email"
-          className="border border-slate-300 rounded-md"
+          className="border !border-b-4 !border-slate-50 rounded-md"
           name="email"
           placeholder="Email"
           required
         />
-        <input
-          type="text"
-          className="border border-slate-300 rounded-md"
-          name="subject"
-          placeholder="Subject"
-          required
-        />
         <textarea
           name="message"
-          className="border border-slate-300 rounded-md"
+          className="border !border-b-4 !border-slate-50 rounded-md"
           id="message"
           cols="10"
           rows="5"
@@ -72,6 +79,8 @@ const Contact = () => {
         </div>
       </form>
     </div>
+    </>
+
   );
 };
 

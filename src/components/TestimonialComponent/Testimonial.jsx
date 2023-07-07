@@ -1,19 +1,22 @@
 import React from "react";
+import review1 from "../../images/akshay.jpg";
+import review2 from "../../images/ganesh.jpg";
+import review3 from "../../images/radha.jpg";
 
 const Testimonial = () => {
   return (
 <section className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-4 lg:px-8">
-    <h2 className="text-center text-4xl font-bold tracking-tight sm:text-5xl">
+    <h2 className="text-center text-4xl font-bold tracking-tight sm:text-3xl">
       Read trusted reviews from our customers
     </h2>
 
-    <div className="mt-12 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-      <blockquote className="rounded-lg bg-gray-100 p-8">
+    <div className="mt-5 grid grid-cols-1 gap-4 xl:grid-cols-3 xl:gap-8">
+      <blockquote className="rounded-lg bg-gray-100 p-4">
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src={review1}
             className="h-16 w-16 rounded-full object-cover"
           />
 
@@ -71,21 +74,23 @@ const Testimonial = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">Akshay Saini</p>
+            <small>Founder of Namaste Dev</small>
           </div>
         </div>
 
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          voluptatem alias ut provident sapiente repellendus.
+        You have truly been a top performer and have consistently shown dedication, passion, and hard work towards your goals. Your commitment to learning and continuous improvement is truly inspiring.
+        I have no doubt that you will be a great asset in whatever endeavors you pursue next. Your skills and knowledge, combined with your determination, will undoubtedly take you far.
+
         </p>
       </blockquote>
 
-      <blockquote className="rounded-lg bg-gray-100 p-8">
+      <blockquote className="rounded-lg bg-gray-100 p-4">
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src={review2}
             className="h-16 w-16 rounded-full object-cover"
           />
 
@@ -143,21 +148,21 @@ const Testimonial = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">Ganesh Shelar</p>
+            <small>Chief Manager of ILTC</small>
           </div>
         </div>
 
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          voluptatem alias ut provident sapiente repellendus.
+        I had the privilege of working with Divya Gavandi as her Manager. She consistently impressed me with her comprehensive understanding of both front-end and back-end development. She have a solid command of various programming languages, frameworks, and tools, allowing them to seamlessly bridge the gap between design and implementation.
         </p>
       </blockquote>
 
-      <blockquote className="rounded-lg bg-gray-100 p-8">
+      <blockquote className="rounded-lg bg-gray-100 p-4">
         <div className="flex items-center gap-4">
           <img
             alt="Man"
-            src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
+            src={review3}
             className="h-16 w-16 rounded-full object-cover"
           />
 
@@ -215,13 +220,14 @@ const Testimonial = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Paul Starr</p>
+            <p className="mt-1 text-lg font-medium text-gray-700">Radhakrishna A.</p>
+            <small>Founder of MyDukan</small>
           </div>
         </div>
 
         <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-          voluptatem alias ut provident sapiente repellendus.
+          Divya worked as a Frontend Freelancer for our Startup called MyDukan(Digiretail Pvt Ltd) she always delivered the task before time and satisfied all the business requirements.
+          She was always open to revamp the design and corrections needed. Quite satisfied with her work anyone can rely on her work and hire. 
         </p>
       </blockquote>
     </div>

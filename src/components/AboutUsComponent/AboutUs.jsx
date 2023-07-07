@@ -31,7 +31,10 @@ const AboutUs = () => {
           <br />
           📌 I would love to collaborate on projects, contact me for any help.
           <br />
-          📌 Do read my blogs and go through my graphic work.
+          📌 Do read my blogs posted on <a
+            href="https://divya-gavandi19.hashnode.dev/"
+            title="Hashnode" className="font-semibold"
+          >Hashnode</a> and go through my services offered.
           <br />
           <div>
           <button className="button font-bold"><BiSolidDownload style={{display:"inline"}}/> 
@@ -50,7 +53,7 @@ const AboutUs = () => {
                 })
               }
             >
-            Contact Me            
+            Hire Me            
             </NavHashLink>
           </div>
         </p>

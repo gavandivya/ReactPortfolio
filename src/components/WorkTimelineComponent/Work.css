@@ -6,7 +6,6 @@
 /******* Experience CSS ********/
 .experience {
   position: relative;
-  padding: 45px 0 15px 0;
 }
 
 .experience .timeline {
@@ -18,7 +17,7 @@
   content: "";
   position: absolute;
   width: 2px;
-  background: #ef233c;
+  background: #2e0268;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -50,7 +49,7 @@
   top: 48px;
   right: -8px;
   background: #ffffff;
-  border: 2px solid #ef233c;
+  border: 2px solid #343670;
   border-radius: 16px;
 }
 
@@ -64,14 +63,14 @@
   width: 0;
   height: 0;
   top: 46px;
-  right: 10px;
+  right: 12px;
   border: 10px solid;
-  border-color: transparent transparent transparent #dddddd;
+  border-color: transparent transparent transparent #2e0268;
 }
 
 .experience .timeline .timeline-item.right::before {
-  left: 10px;
-  border-color: transparent #dddddd transparent transparent;
+  left: 12px;
+  border-color: transparent #2e0268 transparent transparent;
 }
 
 .experience .timeline .timeline-date {
@@ -80,7 +79,7 @@
   top: 44px;
   font-size: 16px;
   font-weight: 600;
-  color: #ef233c;
+  color: #181895;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -99,13 +98,16 @@
   padding: 15px;
   background: #ffffff;
   position: relative;
-  border-right: 5px solid #dddddd;
+  border-right: 5px solid #343670;
+  border-bottom: 1px solid #343670;
+  border-left: 1px solid #343670;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
-  border-right: none;
-  border-left: 5px solid #dddddd;
+  border-left: 5px solid #343670;
+  border-bottom: 1px solid #343670;
+  border-right: 1px solid #343670;
 }
 
 .experience .timeline .timeline-text h2 {
@@ -152,8 +154,8 @@
 
   .experience .timeline .timeline-item.left::before,
   .experience .timeline .timeline-item.right::before {
-    left: 18px;
-    border-color: transparent #dddddd transparent transparent;
+    left: 20px;
+    border-color: transparent #343670 transparent transparent;
   }
 
   .experience .timeline .timeline-item.left .timeline-date,
@@ -168,7 +170,8 @@
 
   .experience .timeline .timeline-item.left .timeline-text,
   .experience .timeline .timeline-item.right .timeline-text {
-    border-right: none;
-    border-left: 5px solid #dddddd;
+    border-bottom: 1px solid #343670;
+    border-right: 1px solid #343670;    
+    border-left: 5px solid #343670;
   }
 }

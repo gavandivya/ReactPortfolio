@@ -13,6 +13,10 @@
     margin-top:2rem;
 }
 
+header{
+background-image: "url('../../images/binbg1.jpg')";
+}
+
 
 .glow{
     font-size: 20px;
