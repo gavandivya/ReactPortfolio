@@ -45,9 +45,7 @@ const Contact = () => {
         <span className="font-semibold">  onlyforcode19@gmail.com</span>
       </p>
       <p>You can also connect me on any social media platform.</p>
-
       </div>
-
       <form action="" onSubmit={sendEmail} ref={refForm} className="w-4/5">
         <input
           className="border  !border-b-4 !border-slate-50 rounded-md"
