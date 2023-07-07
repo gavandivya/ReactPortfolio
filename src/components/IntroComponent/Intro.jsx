@@ -9,7 +9,6 @@ import {
 } from "react-icons/ai";
 import { SiHashnode } from "react-icons/si";
 import "./Intro.css";
-import bg from "../../images/binbg1.jpg";
 
 
 const Intro = () => {

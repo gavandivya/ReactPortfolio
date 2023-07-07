@@ -1,7 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import "./App.css";
 import AboutUs from "./components/AboutUsComponent/AboutUs";
-import Article from "./components/ArticleComponent/Article";
 import Contact from "./components/ContactComponent/Contact";
 import Footer from "./components/FooterComponent/Footer";
 import GithubStats from "./components/GithubStatsComponent/GithubStats";
