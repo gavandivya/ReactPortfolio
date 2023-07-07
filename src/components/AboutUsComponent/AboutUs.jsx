@@ -8,7 +8,7 @@ import { BiSolidDownload } from "react-icons/bi";
 const AboutUs = () => {
   return (
     <div
-      className="flex bg-white mx-20 pt-6 flex-wrap justify-center px-2 opacity-90"
+      className="flex bg-white box pt-6 flex-wrap justify-center px-2 opacity-90"
       id="about"
     >
       <div>

@@ -5,3 +5,12 @@
   min-height: 190px; */
   margin: 0.5rem;
 }
+
+
+
+@media only screen and (max-width: 625px) {
+  .img-responsive {
+    min-width: 230px !important;
+    margin: 0.5rem;
+  }
+}

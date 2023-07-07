@@ -36,6 +36,16 @@
   opacity: 0.9;
 }
 
+
+@media only screen and (max-width : 768px) {
+
+  .box{
+    margin: 1rem;
+    padding: 1rem;
+  }
+}
+
+
 .App-link {
   color: #61dafb;
 }

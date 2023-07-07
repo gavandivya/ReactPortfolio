@@ -13,6 +13,7 @@ import Work from "./components/WorkTimelineComponent/Work";
 import Testimonial from "./components/TestimonialComponent/Testimonial";
 import Graphic from "./components/GraphicComponent/Graphic";
 import Project from "./components/ProjectComponent/Project";
+import Volunteer from "./components/VolunteerComponent/Volunteer";
 
 function App() {
   return (
@@ -41,6 +42,9 @@ function App() {
         </div>
         <div className="box">
         <Article />
+        </div>
+        <div className="box">
+        <Volunteer />
         </div>
         <div className="box">
           <Testimonial/>
