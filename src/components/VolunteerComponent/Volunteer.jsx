@@ -10,7 +10,7 @@ const Volunteer = () => {
   return (
     <>
     <h2 className="text-3xl font-bold uppercase mb-3 text-center">Volunteer Experience</h2>
-    <div className='flex gap-2 sm:flex-wrap lg:flex-nowrap'>
+    <div className='flex gap-2 flex-wrap lg:!flex-nowrap'>
     <Carousel transition={{ duration: 2 }} className="rounded-xl">
       <img 
         src={b1}
