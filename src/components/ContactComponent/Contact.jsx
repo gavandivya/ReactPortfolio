@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <>
     <h2 className="text-3xl font-bold text-center uppercase">Contact me</h2>
-    <div className="flex sm:flex-wrap md:flex-wrap lg:flex-nowrap justify-center" id="contact">
+    <div className="flex flex-wrap lg:!flex-nowrap justify-center" id="contact">
       <div>
       <p>
         I am interested in Freelancing Opportunities. However if you have any
