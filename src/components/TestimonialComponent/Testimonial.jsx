@@ -79,7 +79,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+        <p className="line-clamp-none mt-4 text-gray-500">
         You have truly been a top performer and have consistently shown dedication, passion, and hard work towards your goals. Your commitment to learning and continuous improvement is truly inspiring.
         I have no doubt that you will be a great asset in whatever endeavors you pursue next. Your skills and knowledge, combined with your determination, will undoubtedly take you far.
 
@@ -153,7 +153,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+        <p className="line-clamp-none mt-4 text-gray-500">
         I had the privilege of working with Divya Gavandi as her Manager. She consistently impressed me with her comprehensive understanding of both front-end and back-end development. She have a solid command of various programming languages, frameworks, and tools, allowing them to seamlessly bridge the gap between design and implementation.
         </p>
       </blockquote>
@@ -225,7 +225,7 @@ const Testimonial = () => {
           </div>
         </div>
 
-        <p className="line-clamp-2 sm:line-clamp-none mt-4 text-gray-500">
+        <p className="line-clamp-none mt-4 text-gray-500">
           Divya worked as a Frontend Freelancer for our Startup called MyDukan(Digiretail Pvt Ltd) she always delivered the task before time and satisfied all the business requirements.
           She was always open to revamp the design and corrections needed. Quite satisfied with her work anyone can rely on her work and hire. 
         </p>
