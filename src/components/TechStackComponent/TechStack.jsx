@@ -26,7 +26,7 @@ const TechStack = () => {
   return (
     <div>
       <h2 className="text-3xl font-bold text-center uppercase">Tech Stack</h2>
-      <div className="flex flex-wrap p-2 justify-center">
+      <div className="flex flex-wrap p-1 justify-center">
         <img className="cdnheight" src={html} alt="HTML" />
         <img className="cdnheight" src={css} alt="CSS" />
         <img className="cdnheight" src={bootstrap} alt="Bootstrap" />
