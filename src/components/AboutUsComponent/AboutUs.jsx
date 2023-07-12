@@ -19,7 +19,7 @@ const AboutUs = () => {
         <h4 className="text-2xl font-bold pt-10 ml-3">
           𝗛𝗲𝗹𝗹𝗼, 𝗖𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝗼𝗻𝘀!👋
         </h4>
-        <p className="text-lg">
+        <p className="text-base">
           📌 I am Computer Engineer by Profession, Frontend Developer by Passion
           and aspiring Full Stack Web Developer
           <br /> &emsp;&nbsp;with knowledge of latest web technologies.
