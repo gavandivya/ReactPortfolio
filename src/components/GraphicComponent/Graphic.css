@@ -1,4 +1,26 @@
 .graphicImg {
-    min-width: 235px;
-    max-width: 300px;
+    max-width: 250px;
+  }
+
+
+  @media only screen and (max-width : 582px) {
+
+    .graphicImg{
+      max-width: 150px;
+    }
+  }
+
+
+  @media only screen and (max-width : 382px) {
+
+    .graphicImg{
+      max-width: 130px;
+    }
+  }
+
+  @media only screen and (max-width : 350px) {
+
+    .graphicImg{
+      max-width: 90px;
+    }
   }

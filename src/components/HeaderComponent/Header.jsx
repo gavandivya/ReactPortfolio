@@ -52,9 +52,6 @@ useEffect(()=>{
                     <NavHashLink to="#workExp" className={isActive("#workExp")?"active":"isNotActive"} scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}>WORK</NavHashLink>
                     </div>
                     <div style={{ margin: '15px' }}>
-                    <NavHashLink smooth to="#blog" className={isActive("#blog")?"active":"isNotActive"} scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}>BLOG</NavHashLink>
-                    </div>
-                    <div style={{ margin: '15px' }}>
                     <BsSun style={{ fontSize: "30px",color:"white" }}/>
                     </div>
                 </nav>
