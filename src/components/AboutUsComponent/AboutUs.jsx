@@ -8,7 +8,7 @@ import { BiSolidDownload } from "react-icons/bi";
 const AboutUs = () => {
   return (
     <div
-      className="flex boxy mx-20 bg-white pt-6 flex-wrap justify-center px-2 opacity-90"
+      className="flex justify-center px-2 opacity-90 boxy mx-20 bg-white pt-6 flex-wrap lg:!flex-nowrap"
       id="about"
     >
       <div>
@@ -25,7 +25,7 @@ const AboutUs = () => {
           <br /> &emsp;&nbsp;with knowledge of latest web technologies.
           <br />
           📌 Love experimenting new tech stack and languages which helps to
-          improve my knowledge and enhance my experience.
+          upskill my knowledge.
           <br />
           📌 An ambitious girl with a strong desire to succeed.
           <br />

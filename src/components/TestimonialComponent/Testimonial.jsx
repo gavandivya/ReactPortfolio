@@ -2,6 +2,7 @@ import React from "react";
 import review1 from "../../images/akshay.jpg";
 import review2 from "../../images/ganesh.jpg";
 import review3 from "../../images/radha.jpg";
+import "./Testimonial.css";
 
 const Testimonial = () => {
   return (
