@@ -15,7 +15,7 @@ const Project = () => {
             <div className='card xl:w-96'>
             <img className="card-img-top img-fluid"
                             alt="image2"
-                            style={{padding: "20px", borderRadius: "10px"}}
+                            style={{padding: "20px", borderRadius: "10px", maxWidth:"500px"}}
                             src="https://user-images.githubusercontent.com/49062060/216787586-acf476f3-e21a-4fdb-841b-9bf106eaa78f.png"
             />                
             <p><span className='font-bold'>Brainy Fools</span> - Retrived team member data from Github API, used context API to manage to dark/light theme throught out the app.<br/> Made custom hook to manage city selection based on State. Search the member of team wrt to their Name, Company Name and Location. Displayed Github Stats acc to each user. <br/>Invalid path redirection to 404 Not Found and Error Page.
