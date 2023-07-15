@@ -1,9 +1,12 @@
-import React, { useRef } from "react";
+import React, { useContext, useRef } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
+import ThemeContext from "../../constants/ThemeContext";
 
 const Contact = () => {
   const refForm = useRef();
+  const { themeContext } = useContext(ThemeContext);
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -48,7 +51,7 @@ const Contact = () => {
       </div>
       <form action="" onSubmit={sendEmail} ref={refForm} className="w-4/5">
         <input
-          className="border  !border-b-4 !border-slate-50 rounded-md"
+          className={`border !border-b-4 !border-slate-50 rounded-md ${themeContext === "dark"?"darkMode":"lightMode"}`}
           type="text"
           name="name"
           placeholder="Name"
@@ -56,14 +59,14 @@ const Contact = () => {
         />
         <input
           type="email"
-          className="border !border-b-4 !border-slate-50 rounded-md"
+          className={`border !border-b-4 !border-slate-50 rounded-md ${themeContext === "dark"?"darkMode":"lightMode"}`}
           name="email"
           placeholder="Email"
           required
         />
         <textarea
           name="message"
-          className="border !border-b-4 !border-slate-50 rounded-md"
+          className={`border !border-b-4 !border-slate-50 rounded-md ${themeContext === "dark"?"darkMode":"lightMode"}`}
           id="message"
           cols="10"
           rows="5"

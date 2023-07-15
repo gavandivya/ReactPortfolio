@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Work.css";
 import "../../css/animate.css";
+import ThemeContext from "../../constants/ThemeContext";
 
 const Work = () => {
+  const {themeContext} = useContext(ThemeContext);
   return (
     <div className="experience" id="workExp">
           <h2 className="text-3xl font-bold uppercase mb-3 text-center">
@@ -10,10 +12,10 @@ const Work = () => {
           </h2>
         <div className="timeline">
           <div
-            className="timeline-item right wow slideInRight"
-            data-wow-delay="0.1s"
+            className="timeline-item right wow slideInRight bg-black"
+            data-wow-delay="0.1s" 
           >
-            <div className="timeline-text rounded-3xl">
+            <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-white"} `}>
               <div className="timeline-date">2021 - Present</div>
               <h2>Software Developer</h2>
               <h4>ICICI Lombard GIC</h4>
@@ -28,7 +30,7 @@ const Work = () => {
             className="timeline-item left wow slideInLeft"
             data-wow-delay="0.1s"
           >
-            <div className="timeline-text rounded-3xl">
+            <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-white"} `}>
               <div className="timeline-date">2018 - 2021</div>
               <h2>BTech in Computer Engineering</h2>
               <h4>Sardar Patel Institute of Technology(SPIT)</h4>
@@ -42,7 +44,7 @@ const Work = () => {
             className="timeline-item right wow slideInRight"
             data-wow-delay="0.1s"
           >
-            <div className="timeline-text rounded-3xl">
+            <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-white"} `}>
               <div className="timeline-date">2015 - 2018</div>
               <h2>Diploma (Information Technology)</h2>
               <h4>Government Polytechnic Mumbai (GPM)</h4>

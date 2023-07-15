@@ -1,19 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import review1 from "../../images/akshay.jpg";
 import review2 from "../../images/ganesh.jpg";
 import review3 from "../../images/radha.jpg";
 import "./Testimonial.css";
+import ThemeContext from "../../constants/ThemeContext";
 
 const Testimonial = () => {
+  const { themeContext} = useContext(ThemeContext);
   return (
-<section className="bg-white">
   <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-4 lg:px-8">
     <h2 className="text-center text-4xl font-bold tracking-tight sm:text-3xl">
       Read trusted reviews from our customers
     </h2>
 
     <div className="mt-5 grid grid-cols-1 gap-4 xl:grid-cols-3 xl:gap-8">
-      <blockquote className="rounded-lg bg-gray-100 p-4">
+    <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-50"}  p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -87,7 +88,7 @@ const Testimonial = () => {
         </p>
       </blockquote>
 
-      <blockquote className="rounded-lg bg-gray-100 p-4">
+      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-50"}  p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -159,7 +160,7 @@ const Testimonial = () => {
         </p>
       </blockquote>
 
-      <blockquote className="rounded-lg bg-gray-100 p-4">
+      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-50"}  p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -231,7 +232,6 @@ const Testimonial = () => {
       </blockquote>
     </div>
   </div>
-</section>
   );
 };
 

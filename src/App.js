@@ -13,44 +13,51 @@ import Testimonial from "./components/TestimonialComponent/Testimonial";
 import Graphic from "./components/GraphicComponent/Graphic";
 import Project from "./components/ProjectComponent/Project";
 import Volunteer from "./components/VolunteerComponent/Volunteer";
+import ThemeContext from "./constants/ThemeContext";
+import { useState } from "react";
 
 
 function App() {
+  const [theme,setTheme] = useState("light");
   return (
     <BrowserRouter>
+      <ThemeContext.Provider value={{ themeContext: theme, setThemeContext: setTheme }}>
+      <div style={{backgroundColor:theme==="dark"?"black":"transparent"}}>
       <Header />
       <div className="section">
         <Intro />
         <AboutUs/>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
         <TechStack />
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
         <GithubStats />
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
         <Work />
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
         <Skills />
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
           <Project/>
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
           <Graphic/>
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
         <Volunteer />
         </div>
-        <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
           <Testimonial/>
         </div>
-          <div className="box">
+        <div className={`box ${theme==="dark"? "darkMode":"lightMode"}`}>
         <Contact />
         </div>
       </div>
       <Footer />
+      </div>
+      </ThemeContext.Provider>
     </BrowserRouter>
   );
 }

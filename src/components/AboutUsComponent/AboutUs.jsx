@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import profile from "../../images/divya.png";
 import resume from "../../images/DivyaGavandi.pdf";
 import "./AboutUs.css";
 import { NavHashLink } from "react-router-hash-link";
 import { BiSolidDownload } from "react-icons/bi";
+import ThemeContext from "../../constants/ThemeContext";
 
 const AboutUs = () => {
+  const{themeContext} = useContext(ThemeContext);
   return (
     <div
-      className="flex justify-center px-2 opacity-90 boxy mx-20 bg-white pt-6 flex-wrap lg:!flex-nowrap"
+      className={`flex justify-center px-2 opacity-90 boxy mx-20 pt-6 flex-wrap lg:!flex-nowrap ${themeContext==="dark"? "darkMode":"lightMode"}`}
       id="about"
     >
       <div>

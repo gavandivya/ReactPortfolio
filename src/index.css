@@ -9,7 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
- background-image: -webkit-linear-gradient(top, #1c023d, #73c2fb);
+  background-image: -webkit-linear-gradient(top, #1c023d, #73c2fb);
   background-image: -o-linear-gradient(top, #1c023d 0, #73c2fb 100%);
   background-image: linear-gradient(180deg, #1c023d 0, #73c2fb);
   background-repeat: repeat-x; 

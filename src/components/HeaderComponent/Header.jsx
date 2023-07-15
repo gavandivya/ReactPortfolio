@@ -1,10 +1,11 @@
-import React,{useEffect,useRef} from "react";
+import React,{useEffect,useRef, useState,useContext} from "react";
 import "./Header.css";
 import { useLocation } from "react-router-dom";
 import { NavHashLink} from 'react-router-hash-link';
 import {
-  BsSun,
+  BsSun,BsMoon
 } from "react-icons/bs";
+import ThemeContext from "../../constants/ThemeContext";
 
 
 
@@ -12,17 +13,40 @@ import {
 const Header = () => {
   const { hash } = useLocation();
   const isActive = (iHash) => hash === iHash;
+  const [navbar,setNavbar] = useState(false);
 //  const [scrolled, setScrolled] = useState(false);
   const navRef = useRef(document.querySelector('.navbar'));
-//  const { themeContext, setThemeContext } = useContext(ThemeContext);
+  const { themeContext, setThemeContext } = useContext(ThemeContext);
+
+const handleMode = ()=>{
+  setThemeContext(themeContext === "dark" ? "light" : "dark");
+}
 
 useEffect(()=>{
+
+  if(themeContext === "dark" && window.scrollY >= 100){
+    navRef.current.classList.add('navbarDarkBg');
+    navRef.current.classList.remove('navbarBg');
+  }
+  else if(themeContext === "light" && window.scrollY >= 100)
+    {
+    navRef.current.classList.add('navbarBg');
+    navRef.current.classList.remove('navbarDarkBg');
+  }
+
    const handleScroll = ()=>{
-    if(window.scrollY>=100){
+    if(window.scrollY >= 100 && themeContext === "dark"){
+      navRef.current.classList.add('navbarDarkBg');
+      setNavbar(true);
+    }
+    else if(window.scrollY >= 100 && themeContext === "light"){
       navRef.current.classList.add('navbarBg');
+      setNavbar(true);
     }
     else if(window.scrollY<100){
       navRef.current.classList.remove('navbarBg');
+      navRef.current.classList.remove('navbarDarkBg');
+      setNavbar(false);
     }
   }
 
@@ -32,7 +56,8 @@ useEffect(()=>{
     window.removeEventListener("scroll", handleScroll);
   };
 
-},[]);
+},[themeContext]);
+
   return <nav id="section" style={{
                     display: "flex",
                     justifyContent:"end",
@@ -41,18 +66,18 @@ useEffect(()=>{
                 }} className="navbar sticky top-0"
                 ref={navRef}>
                     <div style={{ margin: '15px' }}>
-                      <NavHashLink to="#" className={isActive("#")?"active":"isNotActive"}>
+                      <NavHashLink to="#" style={{color:themeContext==="dark"?"#fff":navbar?"#000":"#fff"}} className={isActive("#")?"active":"isNotActive"}>
                         HOME
                       </NavHashLink>
                     </div>
                     <div style={{ margin: '15px' }}>
-                    <NavHashLink to="#github" className={isActive("#github")?"active":"isNotActive"} scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}>GITHUB</NavHashLink>
+                    <NavHashLink style={{color:themeContext==="dark"?"#fff":navbar?"#000":"#fff"}} to="#github" className={isActive("#github")?"active":"isNotActive"} scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}>GITHUB</NavHashLink>
                     </div>
                     <div style={{ margin: '15px' }}>
-                    <NavHashLink to="#workExp" className={isActive("#workExp")?"active":"isNotActive"} scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}>WORK</NavHashLink>
+                    <NavHashLink style={{color:themeContext==="dark"?"#fff":navbar?"#000":"#fff"}}  to="#workExp" className={isActive("#workExp")?"active":"isNotActive"} scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" })}>WORK</NavHashLink>
                     </div>
                     <div style={{ margin: '15px' }}>
-                    <BsSun style={{ fontSize: "30px",color:"white" }}/>
+                    {themeContext ==="light"?<BsSun style={{ fontSize: "30px",color:themeContext==="dark"?"#fff":navbar?"#000":"#fff"}} onClick={handleMode}/>:<BsMoon style={{ fontSize: "28px",color:themeContext==="dark"?"#fff":navbar?"#000":"#fff"}} onClick={handleMode}/>}
                     </div>
                 </nav>
 };
