@@ -8,7 +8,7 @@ import ThemeContext from "../../constants/ThemeContext";
 const Testimonial = () => {
   const { themeContext} = useContext(ThemeContext);
   return (
-  <div className="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-4 lg:px-8">
+  <div className="mx-auto max-w-screen-xl px-4 py-2 sm:px-6 sm:py-4 lg:px-8">
     <h2 className="text-center text-3xl font-bold tracking-tight">
       Read trusted reviews from our customers
     </h2>
