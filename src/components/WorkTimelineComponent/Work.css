@@ -13,11 +13,15 @@
   width: 100%;
 }
 
+.bg-purple{
+  background-color: #35387336;
+}
+
 .experience .timeline::after {
   content: "";
   position: absolute;
   width: 2px;
-  background: #2e0268;
+  background: #151515;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -49,7 +53,7 @@
   top: 48px;
   right: -8px;
   background: #ffffff;
-  border: 2px solid #343670;
+  border: 2px solid #151515;
   border-radius: 16px;
 }
 
@@ -65,12 +69,12 @@
   top: 46px;
   right: 12px;
   border: 10px solid;
-  border-color: transparent transparent transparent #2e0268;
+  border-color: transparent transparent transparent #151515;
 }
 
 .experience .timeline .timeline-item.right::before {
   left: 12px;
-  border-color: transparent #2e0268 transparent transparent;
+  border-color: transparent #151515 transparent transparent;
 }
 
 .experience .timeline .timeline-date {
@@ -79,7 +83,6 @@
   top: 44px;
   font-size: 16px;
   font-weight: 600;
-  color: #181895;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
@@ -97,16 +100,16 @@
 .experience .timeline .timeline-text {
   padding: 15px;
   position: relative;
-  border-right: 5px solid #343670;
-  border-bottom: 1px solid #343670;
-  border-left: 1px solid #343670;
+  border-right: 5px solid #151515;
+  border-bottom: 1px solid #151515;
+  border-left: 1px solid #151515;
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
 }
 
 .experience .timeline .timeline-item.right .timeline-text {
-  border-left: 5px solid #343670;
-  border-bottom: 1px solid #343670;
-  border-right: 1px solid #343670;
+  border-left: 5px solid #151515;
+  border-bottom: 1px solid #151515;
+  border-right: 1px solid #151515;
 }
 
 .experience .timeline .timeline-text h2 {
@@ -154,7 +157,7 @@
   .experience .timeline .timeline-item.left::before,
   .experience .timeline .timeline-item.right::before {
     left: 20px;
-    border-color: transparent #343670 transparent transparent;
+    border-color: transparent #151515 transparent transparent;
   }
 
   .experience .timeline .timeline-item.left .timeline-date,
@@ -169,8 +172,8 @@
 
   .experience .timeline .timeline-item.left .timeline-text,
   .experience .timeline .timeline-item.right .timeline-text {
-    border-bottom: 1px solid #343670;
-    border-right: 1px solid #343670;    
-    border-left: 5px solid #343670;
+    border-bottom: 1px solid #151515;
+    border-right: 1px solid #151515;    
+    border-left: 5px solid #151515;
   }
 }

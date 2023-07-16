@@ -7,16 +7,15 @@ form {
 
 input,
 textarea,
-button,
 p {
   padding: 5px;
   margin: 5px 5px;
 }
 
-.btn {
+.btnLight {
   width: 95px;
   font-size: 14px;
   margin: 0.5rem;
-  background-color: rgb(194, 195, 196);
+  background-color: #dee2e6;
 }
 

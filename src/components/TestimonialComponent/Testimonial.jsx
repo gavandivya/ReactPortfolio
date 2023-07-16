@@ -14,7 +14,7 @@ const Testimonial = () => {
     </h2>
 
     <div className="mt-5 grid grid-cols-1 gap-4 xl:grid-cols-3 xl:gap-8">
-    <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-50"}  p-4`}>
+    <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"}  p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -76,19 +76,19 @@ const Testimonial = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Akshay Saini</p>
+            <p className={`mt-1 text-lg font-medium ${themeContext === "dark"?"text-gray-400":"text-gray-700"} `}>Akshay Saini</p>
             <small>Founder of Namaste Dev</small>
           </div>
         </div>
 
-        <p className="line-clamp-none mt-4 text-gray-500">
+        <p className={`line-clamp-none mt-4 ${themeContext === "dark"?"text-gray-300":"text-gray-600"}`}>
         You have truly been a top performer and have consistently shown dedication, passion, and hard work towards your goals. Your commitment to learning and continuous improvement is truly inspiring.
         I have no doubt that you will be a great asset in whatever endeavors you pursue next. Your skills and knowledge, combined with your determination, will undoubtedly take you far.
 
         </p>
       </blockquote>
 
-      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-50"}  p-4`}>
+      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"}  p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -150,17 +150,18 @@ const Testimonial = () => {
               </svg>
             </div>
 
-            <p className="mt-1 text-lg font-medium text-gray-700">Ganesh Shelar</p>
+            <p className={`mt-1 text-lg font-medium ${themeContext === "dark"?"text-gray-400":"text-gray-700"} `}>Ganesh Shelar</p>
+
             <small>Chief Manager of ILTC</small>
           </div>
         </div>
 
-        <p className="line-clamp-none mt-4 text-gray-500">
+        <p className={`line-clamp-none mt-4 ${themeContext === "dark"?"text-gray-300":"text-gray-600"}`}>
         I had the privilege of working with Divya Gavandi as her Manager. She consistently impressed me with her comprehensive understanding of both front-end and back-end development. She have a solid command of various programming languages, frameworks, and tools, allowing them to seamlessly bridge the gap between design and implementation.
         </p>
       </blockquote>
 
-      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-50"}  p-4`}>
+      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"}  p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -220,12 +221,13 @@ const Testimonial = () => {
                 />
               </svg>
             </div>
-            <p className="mt-1 text-lg font-medium text-gray-700">Radhakrishna A.</p>
+            <p className={`mt-1 text-lg font-medium ${themeContext === "dark"?"text-gray-400":"text-gray-700"} `}>Radhakrishna</p>
+
             <small>Founder of MyDukan</small>
           </div>
         </div>
 
-        <p className="line-clamp-none mt-4 text-gray-500">
+        <p className={`line-clamp-none mt-4 ${themeContext === "dark"?"text-gray-300":"text-gray-600"}`}>
           Divya worked as a Frontend Freelancer for our Startup called MyDukan(Digiretail Pvt Ltd) she always delivered the task before time and satisfied all the business requirements.
           She was always open to revamp the design and corrections needed. Quite satisfied with her work anyone can rely on her work and hire. 
         </p>

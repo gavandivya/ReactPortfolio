@@ -12,10 +12,10 @@ const Work = () => {
           </h2>
         <div className="timeline">
           <div
-            className="timeline-item right wow slideInRight bg-black"
+            className="timeline-item right wow slideInRight"
             data-wow-delay="0.1s" 
           >
-            <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-white"} `}>
+            <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-gray-50"} `}>
               <div className="timeline-date">2021 - Present</div>
               <h2>Software Developer</h2>
               <h4>ICICI Lombard GIC</h4>

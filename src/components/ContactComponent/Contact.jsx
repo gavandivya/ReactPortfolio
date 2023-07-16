@@ -74,7 +74,7 @@ const Contact = () => {
           placeholder="Message"
         ></textarea>
         <div className="text-center">
-          <button className="btn" type="submit">
+          <button className="btn btnLight" type="submit">
             Send
           </button>
         </div>

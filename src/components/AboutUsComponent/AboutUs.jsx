@@ -39,14 +39,14 @@ const AboutUs = () => {
           >Hashnode</a> and go through my services offered.
           <br />
           <div>
-          <button className="button font-bold"><BiSolidDownload style={{display:"inline"}}/> 
+          <button className={`${themeContext === "dark"?"buttonDark":"button"} font-bold`}><BiSolidDownload style={{display:"inline"}}/> 
           <a href={resume} download="DivyaGavandi">Resume</a>
             </button> &nbsp;
             <NavHashLink
-              className="button"
+              className={`${themeContext === "dark"?"buttonDark":"button"} font-bold`}
               smooth
               to="#contact"
-              style={{ WebkitTextStroke: 0,padding:"0.4rem" }}
+              style={{ WebkitTextStroke: 0,padding:"0.4rem 20px" }}
               scroll={(el) =>
                 el.scrollIntoView({
                   behavior: "smooth",
