@@ -11,18 +11,29 @@ const Work = () => {
             Working Experience
           </h2>
         <div className="timeline">
+        <div
+            className="timeline-item left wow slideInLeft"
+            data-wow-delay="0.1s"
+          >
+            <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-white"} `}>
+              <div className="timeline-date">2023 - Present</div>
+              <h2>Software Engineer</h2>
+              <h4>BillDesk - Mumbai</h4>
+              <p>
+                Currently working as a Frontend Developer, developing web application using technologies like React, Typescript and TailwindCSS.
+              </p>
+            </div>
+          </div>
           <div
             className="timeline-item right wow slideInRight"
             data-wow-delay="0.1s" 
           >
             <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-gray-50"} `}>
-              <div className="timeline-date">2021 - Present</div>
+              <div className="timeline-date">2021 - 2023</div>
               <h2>Software Developer</h2>
-              <h4>ICICI Lombard GIC</h4>
+              <h4>ICICI Lombard GIC - Mumbai</h4>
               <p>
-                Currently working as a SDE on Frontend Web Development
-                technology like React JS, Angular 12, Javascript, Tailwind CSS ,
-                Bootstrap5, HTML5 and CSS3
+                Worked as a FullStack Developer in AGILE pattern with good hands on JIRA. Built 4+ Web Apps using Angular12, ReactJS and created Web API using .NetCore.
               </p>
             </div>
           </div>

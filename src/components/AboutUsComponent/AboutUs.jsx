@@ -23,8 +23,7 @@ const AboutUs = () => {
         </h4>
         <p className="text-base">
           📌 I am Computer Engineer by Profession, Frontend Developer by Passion
-          and aspiring Full Stack Web Developer
-          <br /> &emsp;&nbsp;with knowledge of latest web technologies.
+          and aspiring Full Stack Web Developer.
           <br />
           📌 Love experimenting new tech stack and languages which helps to
           upskill my knowledge.
