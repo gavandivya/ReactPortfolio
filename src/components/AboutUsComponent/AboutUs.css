@@ -7,15 +7,15 @@
     padding: 5px 15px;
     border: 1px solid rgb(0, 0, 0);
     margin: 1rem 0.2rem;
-}
-
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;}
 
 .buttonDark{
     border-radius: 10px;
     padding: 5px 15px;
     border: 1px solid rgb(255, 255, 255);
     margin: 1rem 0.2rem;
-}
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 2px 5px -1px, rgba(243, 243, 243, 0.3) 0px 1px 3px -1px;}
 
 
 a:hover {
