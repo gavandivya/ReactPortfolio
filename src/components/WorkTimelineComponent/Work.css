@@ -103,7 +103,7 @@
   border-right: 5px solid #151515;
   border-bottom: 1px solid #151515;
   border-left: 1px solid #151515;
-  box-shadow: 0 0 60px rgba(0, 0, 0, 0.08);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .experience .timeline .timeline-item.right .timeline-text {

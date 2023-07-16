@@ -10,7 +10,7 @@ const AboutUs = () => {
   const{themeContext} = useContext(ThemeContext);
   return (
     <div
-      className={`flex justify-center px-2 opacity-90 boxy mx-20 pt-6 flex-wrap lg:!flex-nowrap ${themeContext==="dark"? "darkMode":"lightMode"}`}
+      className={`flex justify-center px-2 opacity-90 boxy mx-20 pt-6 flex-wrap rounded-md lg:!flex-nowrap ${themeContext==="dark"? "darkMode":"lightMode"}`}
       id="about"
     >
       <div>

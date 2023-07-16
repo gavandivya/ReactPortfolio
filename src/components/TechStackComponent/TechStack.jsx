@@ -27,24 +27,24 @@ const TechStack = () => {
     <div>
       <h2 className="text-3xl font-bold text-center uppercase">Tech Stack</h2>
       <div className="flex flex-wrap p-1 justify-center">
-        <img className="cdnheight" src={html} alt="HTML" />
-        <img className="cdnheight" src={css} alt="CSS" />
-        <img className="cdnheight" src={bootstrap} alt="Bootstrap" />
-        <img className="cdnheight" src={js} alt="Javascript" />
-        <img className="cdnheight" src={ts} alt="Typescript" />
-        <img className="cdnheight" src={angular} alt="Angular" />
-        <img className="cdnheight" src={react} alt="react" />
-        <img className="cdnheight" src={net} alt=".net" />
-        <img className="cdnheight" src={mysql} alt="Mysql" />
-        <img className="cdnheight" src={postgreSql} alt="PostgreSQL" />
-        <img className="cdnheight" src={java} alt="Java" />
-        <img className="cdnheight" src={tailwind} alt="tailwind" />
-        <img className="cdnheight" src={python} alt="python" />
-        <img className="cdnheight" src={jira} alt="Jira" />
-        <img className="cdnheight" src={figma} alt="figma" />
-        <img className="cdnheight" src={git} alt="git" />
-        <img className="cdnheight" src={vscode} alt="vscode" />
-        <img className="cdnheight" src={postman} alt="postman" />
+        <img title="HTML" className="cdnheight" src={html} alt="HTML" />
+        <img title="CSS" className="cdnheight" src={css} alt="CSS" />
+        <img title="Bootstrap" className="cdnheight" src={bootstrap} alt="Bootstrap" />
+        <img title="Javascript" className="cdnheight" src={js} alt="Javascript" />
+        <img title="Typescript" className="cdnheight" src={ts} alt="Typescript" />
+        <img title="ReactJS" className="cdnheight" src={react} alt="react" />
+        <img title="Angular" className="cdnheight" src={angular} alt="Angular" />
+        <img title="TailwindCSS" className="cdnheight" src={tailwind} alt="tailwind" />
+        <img title=".Net" className="cdnheight" src={net} alt=".net" />
+        <img title="Mysql" className="cdnheight" src={mysql} alt="Mysql" />
+        <img title="PostgreSQL" className="cdnheight" src={postgreSql} alt="PostgreSQL" />
+        <img title="Java" className="cdnheight" src={java} alt="Java" />
+        <img title="Python" className="cdnheight" src={python} alt="python" />
+        <img title="Jira" className="cdnheight" src={jira} alt="Jira" />
+        <img title="Figma" className="cdnheight" src={figma} alt="figma" />
+        <img title="Git" className="cdnheight" src={git} alt="git" />
+        <img title="VsCode" className="cdnheight" src={vscode} alt="vscode" />
+        <img title="Postman" className="cdnheight" src={postman} alt="postman" />
       </div>
     </div>
   );

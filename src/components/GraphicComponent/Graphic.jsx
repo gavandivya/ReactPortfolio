@@ -9,7 +9,7 @@ const Graphic = () => {
   return (<>      
     <h2 className="text-3xl font-bold uppercase mb-3 text-center">Happy Clients</h2>
     <div className='flex flex-wrap gap-2 justify-center'>
-        <img className='graphicImg'  src={nutrivict} alt="nutrivict" />
+        <img className='graphicImg' src={nutrivict} alt="nutrivict" />
         <img className='graphicImg' src={nonic2} alt="nonic2" />
         <img className='graphicImg' src={nonic3} alt="nonicc3" />
         <img className='graphicImg' src={cycling} alt="cycling" />

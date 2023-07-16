@@ -14,7 +14,7 @@ const Testimonial = () => {
     </h2>
 
     <div className="mt-5 grid grid-cols-1 gap-4 xl:grid-cols-3 xl:gap-8">
-    <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"}  p-4`}>
+    <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"} shadow-md p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -88,7 +88,7 @@ const Testimonial = () => {
         </p>
       </blockquote>
 
-      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"}  p-4`}>
+      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"} shadow-md p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
@@ -161,7 +161,7 @@ const Testimonial = () => {
         </p>
       </blockquote>
 
-      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"}  p-4`}>
+      <blockquote className={`rounded-lg ${themeContext ==="dark"?"bg-gray":"bg-gray-100"} shadow-md p-4`}>
         <div className="flex items-center gap-4">
           <img
             alt="Man"
