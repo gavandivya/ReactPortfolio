@@ -48,31 +48,31 @@ const Intro = () => {
         </h1>
         <div className="intro text-white">
           <a href="https://github.com/gavandivya">
-            <AiFillGithub style={{ fontSize: "40px" }} />
+            <AiFillGithub className="icons" />
           </a>
           <a
             href="https://www.linkedin.com/in/divya-gavandi/"
             title="Linkedin"
           >
-            <AiFillLinkedin style={{ fontSize: "40px" }} />
+            <AiFillLinkedin className="icons" />
           </a>
           <a
             href="https://divya-gavandi19.hashnode.dev/"
             title="Hashnode"
           >
-            <SiHashnode style={{ fontSize: "40px" }} />
+            <SiHashnode className="icons" />
           </a>
           <a
             href="https://www.youtube.com/channel/UCIuQ4BIRSGwSDUNNPyEc4hA"
             title="Youtube"
           >
-            <AiFillYoutube style={{ fontSize: "40px" }} />
+            <AiFillYoutube className="icons" />
           </a>
           <a
             href="https://www.instagram.com/gavandivya/"
             title="Instagram"
           >
-            <AiFillInstagram style={{ fontSize: "40px" }} />
+            <AiFillInstagram className="icons" />
           </a>
         </div>
         <p className="glow">A girl who believes in GODFIDENCE</p>
