@@ -24,22 +24,22 @@ const handleMode = ()=>{
 
 useEffect(()=>{
 
-  if(themeContext === "dark" && window.scrollY >= 100){
+  if(themeContext === "dark" && window.scrollY >= 30){
     navRef.current.classList.add('navbarDarkBg');
     navRef.current.classList.remove('navbarBg');
   }
-  else if(themeContext === "light" && window.scrollY >= 100)
+  else if(themeContext === "light" && window.scrollY >= 30)
     {
     navRef.current.classList.add('navbarBg');
     navRef.current.classList.remove('navbarDarkBg');
   }
 
    const handleScroll = ()=>{
-    if(window.scrollY >= 100 && themeContext === "dark"){
+    if(window.scrollY >= 30 && themeContext === "dark"){
       navRef.current.classList.add('navbarDarkBg');
       setNavbar(true);
     }
-    else if(window.scrollY >= 100 && themeContext === "light"){
+    else if(window.scrollY >= 30 && themeContext === "light"){
       navRef.current.classList.add('navbarBg');
       setNavbar(true);
     }
