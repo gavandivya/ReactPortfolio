@@ -17,7 +17,7 @@ const Work = () => {
           >
             <div className={`timeline-text rounded-3xl ${themeContext === "dark"?"bg-gray":"bg-white"} `}>
               <div className="timeline-date">2023 - Present</div>
-              <h2>Software Engineer</h2>
+              <h2>FrontEnd Engineer</h2>
               <h4>BillDesk - Mumbai</h4>
               <p>
                 Currently working as a Frontend Developer, developing web application using technologies like React, Typescript and TailwindCSS.
