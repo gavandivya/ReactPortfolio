@@ -1,6 +1,6 @@
 
 Desktop View (Light/Dark Mode)
-
+---
 <img src="https://github.com/gavandivya/ReactPortfolio/assets/49062060/f7bcd43a-c893-4dab-a56b-bbed8e364a9d" width="48%">
 
 <img src="https://github.com/gavandivya/ReactPortfolio/assets/49062060/5c7ca456-8c2d-4f9c-96a7-3e12ec79c7ce" width="48%">
@@ -19,6 +19,7 @@ Desktop View (Light/Dark Mode)
 
 
 Mobile View (Light/Dark Mode)
+----
 
 <img src="https://github.com/gavandivya/ReactPortfolio/assets/49062060/3b72fe3f-ee48-4666-bcc9-9b1e17c86748" width="48%">
 
