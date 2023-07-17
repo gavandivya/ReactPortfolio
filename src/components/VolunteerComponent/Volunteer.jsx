@@ -33,7 +33,7 @@ const Volunteer = () => {
         className="  w-full h-full object-cover"
       />
     </Carousel>
-    <div className='p-2'>
+    <div className='p-2 text-justify'>
     <p><strong>DATE WITH OCEAN</strong></p>
     <p>
         Along with the well known socialist Afroz Shah and our

@@ -6,7 +6,7 @@ import ThemeContext from "../../constants/ThemeContext";
 const Work = () => {
   const {themeContext} = useContext(ThemeContext);
   return (
-    <div className="experience" id="workExp">
+    <div className="experience text-justify" id="workExp">
           <h2 className="text-3xl font-bold uppercase mb-3 text-center">
             Working Experience
           </h2>

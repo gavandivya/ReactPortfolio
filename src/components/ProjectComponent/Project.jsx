@@ -5,7 +5,7 @@ const Project = () => {
   return (
     <div>
           <h2 className="text-3xl font-bold uppercase mb-3 text-center">Projects</h2>
-          <div className="flex gap-4 flex-wrap justify-center">
+          <div className="flex gap-4 flex-wrap justify-center text-justify">
             <div className='card xl:w-96 shadow-md'>
             <img className="card-img-top img-fluid"
             alt="img1" style={{padding: "20px", borderRadius: "10px"}} src="https://user-images.githubusercontent.com/49062060/216764425-6d6ba6b3-d4c4-456f-9de8-96b6999a6ecf.png"

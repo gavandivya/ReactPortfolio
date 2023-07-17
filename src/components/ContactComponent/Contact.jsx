@@ -35,7 +35,7 @@ const Contact = () => {
     <h2 className="text-3xl font-bold text-center uppercase">Contact me</h2>
     <div className="flex flex-wrap lg:!flex-nowrap justify-center" id="contact">
       <div>
-      <p>
+      <p className="text-justify">
         I am interested in Freelancing Opportunities. However if you have any
         other request or have any doubts regarding Web Development, 
         Frontend Technologies feel free to connect me.<br/> I would be happy to help you. Thanks😌
