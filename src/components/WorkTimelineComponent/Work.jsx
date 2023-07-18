@@ -8,7 +8,7 @@ const Work = () => {
   return (
     <div className="experience text-justify" id="workExp">
           <h2 className="text-3xl font-bold uppercase mb-3 text-center">
-            Working Experience
+            Working Profession
           </h2>
         <div className="timeline">
         <div
