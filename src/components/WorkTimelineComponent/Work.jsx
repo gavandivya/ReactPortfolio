@@ -20,7 +20,7 @@ const Work = () => {
               <h2>FrontEnd Engineer</h2>
               <h4>BillDesk - Mumbai</h4>
               <p>
-                Currently working as a Frontend Developer, developing web application using technologies like React, Typescript and TailwindCSS.
+                Currently working as a Frontend Engineer, developing web application using technologies like React, Typescript and TailwindCSS.
               </p>
             </div>
           </div>
