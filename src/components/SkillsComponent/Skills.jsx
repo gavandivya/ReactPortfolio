@@ -33,8 +33,7 @@ const Skills = () => {
             <div className="bar-fill bar-fill-javascript start"></div>
           </div>
         </div>
-      </div>
-      <div className="java">
+        <div className="java">
         <p className="bar-title">
           Java / .Net Core
           <span className="percent align-right">70%</span>
@@ -42,6 +41,7 @@ const Skills = () => {
         <div className="bar">
           <div className="bar-fill bar-fill-java start"></div>
         </div>
+      </div>
       </div>
     </div>
   );
